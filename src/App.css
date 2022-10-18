@@ -347,7 +347,8 @@ body {
 
 .bg-puntos {
     width: 100%;
-    background-color: var(--color-yellow);
+    background-color: var(--dark-color);
+    padding: 20px 0;
 }
 
 .contaier-puntos-venta {
@@ -361,7 +362,7 @@ body {
 }
 
 .entradas-fisicas h3 span {
-    color: black;
+    color: var(--color-yellow);
 }
 
 
@@ -422,12 +423,11 @@ body {
 .container-online h3 {
     font-size: 30px;
     text-align: center;
-    padding: 20px;
-
+    padding: 0 20px;
 }
 
 .container-online h3 span a {
-    color: var(--dark-soft-color);
+    color: var(--color-yellow);
     text-decoration: none;
 }
 
