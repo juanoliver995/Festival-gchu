@@ -12,22 +12,22 @@ const PuntoVenta = () => {
                 <div className='container-puntos'>
                     <div className='punto-venta'>
                         <h3>Gualeguaychu Festival</h3>
-                        <a href='https://walink.co/04b693' className='ubi'>Tel: 3446-614304</a>
-                        <a href='https://www.instagram.com/gualeguaychufestival/?hl=es-la'><img src={Instagram} /></a>
+                        <a target="_blank" href='https://walink.co/04b693' className='ubi'>Tel: 3446-614304</a>
+                        <a target="_blank" href='https://www.instagram.com/gualeguaychufestival/?hl=es-la'><img src={Instagram} /></a>
                     </div>
                     <div className='punto-venta'>
                         <h3>La Bodega</h3>
-                        <a href='https://goo.gl/maps/3nW8PivNyNu84xmc6' className='ubi'>Avenida Del Valle 1265, Gualeguaychu</a>
-                        <a href='https://www.instagram.com/labodegagchu/?hl=es-la'><img src={Instagram} /></a>
+                        <a target="_blank" href='https://goo.gl/maps/3nW8PivNyNu84xmc6' className='ubi'>Avenida Del Valle 1265, Gualeguaychu</a>
+                        <a target="_blank" href='https://www.instagram.com/labodegagchu/?hl=es-la'><img src={Instagram} /></a>
                     </div>
                     <div className='punto-venta'>
                         <h3>Francesco</h3>
-                        <a href='https://goo.gl/maps/bdiebYgfa4J6GDDP8' className='ubi'>Rivadavia 1124, Gualeguaychu</a>
-                        <a href='https://www.instagram.com/franchesco_gchu/?hl=es-la'><img src={Instagram} /></a>
+                        <a target="_blank" href='https://goo.gl/maps/bdiebYgfa4J6GDDP8' className='ubi'>Rivadavia 1124, Gualeguaychu</a>
+                        <a target="_blank" href='https://www.instagram.com/franchesco_gchu/?hl=es-la'><img src={Instagram} /></a>
                     </div>
                 </div>
                 <div className='container-online'>
-                    <h3>Entradas Online a traves de <span><a href='https://www.passline.com/eventos/gualeguaychu-festival'>Passline haciendo click aqui</a></span></h3>
+                    <h3>Entradas Online a traves de <span><a target="_blank" href='https://www.passline.com/eventos/gualeguaychu-festival'>Passline haciendo click aqui</a></span></h3>
                 </div>
             </div>
         </div>

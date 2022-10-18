@@ -21,7 +21,7 @@ const Plano = () => {
                                 <p>Norte</p>
                             </div>
                             <div className="button-plano">
-                                <a href="https://walink.co/f5f3db">Mas Informacion</a>
+                                <a target="_blank" href="https://walink.co/f5f3db">Mas Informacion</a>
                             </div>
                         </div>
                         <div className="item-info-plano">
@@ -30,7 +30,7 @@ const Plano = () => {
                                 <p>Sur</p>
                             </div>
                             <div className="button-plano">
-                                <a href="https://walink.co/f5f3db">Mas Informacion</a>
+                                <a target="_blank" href="https://walink.co/f5f3db">Mas Informacion</a>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const Plano = () => {
                                 <p>Preferencial</p>
                             </div>
                             <div className="button-plano">
-                                <a href="https://www.passline.com/eventos/gualeguaychu-festival">Comprar Online</a>
+                                <a target="_blank" href="https://www.passline.com/eventos/gualeguaychu-festival">Comprar Online</a>
                             </div>
                         </div>
                         <div className="item-info-plano">
@@ -51,7 +51,7 @@ const Plano = () => {
                                 <p>General</p>
                             </div>
                             <div className="button-plano">
-                                <a href="https://www.passline.com/eventos/gualeguaychu-festival">Comprar Online</a>
+                                <a target="_blank" href="https://www.passline.com/eventos/gualeguaychu-festival">Comprar Online</a>
                             </div>
                         </div>
                     </div>

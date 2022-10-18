@@ -19,7 +19,7 @@ const Entradas = () => {
                         <h3>Informacion Palcos VIPS</h3>
                         <div>
                             <h4>Para adquirir tu palco vip comunicate con nosotros
-                                a traves de nuestras <span><a href='https://www.instagram.com/gualeguaychufestival/?hl=es-la'>redes sociales</a></span></h4>
+                                a traves de nuestras <span><a target="_blank" href='https://www.instagram.com/gualeguaychufestival/?hl=es-la'>redes sociales</a></span></h4>
                         </div>
                     </div>
                 </div>
