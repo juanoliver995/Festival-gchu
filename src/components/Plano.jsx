@@ -14,30 +14,32 @@ const Plano = () => {
             <div className="container-info-entradas">
                 <div className="info-plano">
                     <div>
+                        <h3>Palcos VIP</h3>
                         <div className="item-info-plano">
                             <div className="info-plano-ubi">
                                 <img src={uno} />
-                                <p>Palco VIP Norte</p>
+                                <p>Norte</p>
                             </div>
                             <div className="button-plano">
-                                <a href="https://walink.co/04b693">Mas Informacion</a>
+                                <a href="https://walink.co/f5f3db">Mas Informacion</a>
                             </div>
                         </div>
                         <div className="item-info-plano">
                             <div className="info-plano-ubi">
                                 <img src={dos} />
-                                <p>Palco VIP Sur</p>
+                                <p>Sur</p>
                             </div>
                             <div className="button-plano">
-                                <a href="https://walink.co/04b693">Mas Informacion</a>
+                                <a href="https://walink.co/f5f3db">Mas Informacion</a>
                             </div>
                         </div>
                     </div>
                     <div>
+                        <h3>Campo</h3>
                         <div className="item-info-plano">
                             <div className="info-plano-ubi">
                                 <img src={tres} />
-                                <p>Campo Preferencial</p>
+                                <p>Preferencial</p>
                             </div>
                             <div className="button-plano">
                                 <a href="https://www.passline.com/eventos/gualeguaychu-festival">Comprar Online</a>
@@ -46,7 +48,7 @@ const Plano = () => {
                         <div className="item-info-plano">
                             <div className="info-plano-ubi">
                                 <img src={cuatro} />
-                                <p>Campo General</p>
+                                <p>General</p>
                             </div>
                             <div className="button-plano">
                                 <a href="https://www.passline.com/eventos/gualeguaychu-festival">Comprar Online</a>

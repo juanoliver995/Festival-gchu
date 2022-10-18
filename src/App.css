@@ -213,6 +213,7 @@ body {
     height: 100%;
 }
 
+
 .plano {
     width: 95%;
     max-height: 600px;
@@ -224,6 +225,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.info-plano h3 {
+    font-size: 22px;
     margin-bottom: 10px;
 }
 
@@ -417,6 +423,7 @@ body {
 .punto-venta h3 {
     font-size: 25px;
     margin-bottom: 10px;
+    color: var(--color-yellow);
 }
 
 
@@ -576,7 +583,8 @@ body {
 
     .info-plano {
         flex-direction: column;
-        width: 100%;
+        width: 98%;
+        padding: 0 10px;
         align-items: center;
         justify-content: center;
     }
@@ -659,5 +667,21 @@ body {
 
     .lista .item p {
         font-size: 30px;
+    }
+
+    .button-plano a {
+        font-size: 14px;
+    }
+
+    .informacion-precios {
+        width: 100%;
+    }
+
+    .container-online h3 {
+        font-size: 25px;
+    }
+
+    .lineup h1 {
+        font-size: 40px;
     }
 }
