@@ -434,12 +434,12 @@ body {
 }
 
 .container-online h3 span a {
-    color: var(--color-yellow);
+    color: #ce9e19;
     text-decoration: none;
 }
 
 .container-online h3 span a:hover {
-    color: var(--dark-color);
+    color: var(--color-yellow);
 }
 
 .entradas-fisicas {
@@ -669,7 +669,7 @@ body {
         font-size: 30px;
     }
 
-    .button-plano a {
+    .punto-venta h3 .button-plano a {
         font-size: 14px;
     }
 
