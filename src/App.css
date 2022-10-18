@@ -532,6 +532,7 @@ body {
     font-family: var(--font-body);
     font-weight: bold;
     font-size: 18px;
+    text-align: left;
 }
 
 .accordion__icon {
