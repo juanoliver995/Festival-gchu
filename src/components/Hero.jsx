@@ -2,22 +2,21 @@ import LogoFestival from "../assets/LOGO GCHU FEST.png"
 
 const Hero = () => {
     return (
-        <div className="container-hero">
+        <div className="container-hero" id="hero">
             <div className="container-texto">
-                <h1>¿TE LO VAS A PERDER?</h1>
-                <h1>TENEMOS PREPARADO</h1>
+                <h1>Gualeguaychu Festival</h1>
                 <div className="lista">
                     <div className="item">
-                        <p>Show L-GANTE</p>
+                        <p>SABADO 19 DE NOVIEMBRE</p>
                     </div>
                     <div className="item">
-                        <p>Bandas en Vivo</p>
+                        <p>CORSODROMO GUALEGUAYCHU</p>
                     </div>
                     <div className="item">
-                        <p>Djs en Vivo</p>
+                        <p>SHOW L-GANTE</p>
                     </div>
                     <div className="item">
-                        <p>Animacion en Vivo</p>
+                        <p>BANDAS, DJS Y ARTISTAS EN VIVO</p>
                     </div>
 
                 </div>

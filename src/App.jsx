@@ -7,6 +7,7 @@ import Entradas from './components/Entradas'
 import PuntoVenta from './components/PuntoVenta'
 import Informacion from './components/Informacion'
 import Footer from './components/Footer'
+
 function App() {
 
 
@@ -19,6 +20,7 @@ function App() {
       <Entradas />
       <PuntoVenta />
       <Informacion />
+
       <Footer />
     </div>
   )

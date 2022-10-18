@@ -1,14 +1,55 @@
 import React from 'react'
 import Lgante from '../assets/lgante-removebg-preview.png'
-import Background from './Background'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Autoplay } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/autoplay';
+
 const LineUp = () => {
     return (
-        <div className='lineup'>
-            <Background />
-            <h1>ARTISTA PRINCIPAL</h1>
-            <div className='container-img-lineup'>
-                <img src={Lgante} />
-            </div>
+        <div className='bg-line' id='line'>
+            <Swiper
+                id='description'
+                modules={[Autoplay]}
+                slidesPerView={1}
+                spaceBetween={500}
+                centeredSlidesBounds={true}
+                centeredSlides={true}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false
+                }}
+            >
+                <SwiperSlide>
+                    <div className='lineup'>
+                        <h1>ARTISTA</h1>
+                        <h1>PRINCIPAL</h1>
+                        <div className='container-img-lineup'>
+                            <img src={Lgante} />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='lineup'>
+                        <h1>DJ</h1>
+                        <h1>INVITADO</h1>
+                        <div className='container-img-lineup'>
+                            <img src={Lgante} />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='lineup'>
+                        <h1>DJ</h1>
+                        <h1>INVITADO</h1>
+                        <div className='container-img-lineup'>
+                            <img src={Lgante} />
+                        </div>
+                    </div>
+                </SwiperSlide>
+
+            </Swiper>
         </div>
     )
 }

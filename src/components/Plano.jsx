@@ -15,22 +15,42 @@ const Plano = () => {
                 <div className="info-plano">
                     <div>
                         <div className="item-info-plano">
-                            <img src={uno} />
-                            <p>Palco VIP Norte</p>
+                            <div className="info-plano-ubi">
+                                <img src={uno} />
+                                <p>Palco VIP Norte</p>
+                            </div>
+                            <div className="button-plano">
+                                <a href="https://walink.co/04b693">Mas Informacion</a>
+                            </div>
                         </div>
                         <div className="item-info-plano">
-                            <img src={dos} />
-                            <p>Palco VIP Sur</p>
+                            <div className="info-plano-ubi">
+                                <img src={dos} />
+                                <p>Palco VIP Sur</p>
+                            </div>
+                            <div className="button-plano">
+                                <a href="https://walink.co/04b693">Mas Informacion</a>
+                            </div>
                         </div>
                     </div>
                     <div>
                         <div className="item-info-plano">
-                            <img src={tres} />
-                            <p>Campo Preferencial</p>
+                            <div className="info-plano-ubi">
+                                <img src={tres} />
+                                <p>Campo Preferencial</p>
+                            </div>
+                            <div className="button-plano">
+                                <a href="https://www.passline.com/eventos/gualeguaychu-festival">Comprar Online</a>
+                            </div>
                         </div>
                         <div className="item-info-plano">
-                            <img src={cuatro} />
-                            <p>Campo General</p>
+                            <div className="info-plano-ubi">
+                                <img src={cuatro} />
+                                <p>Campo General</p>
+                            </div>
+                            <div className="button-plano">
+                                <a href="https://www.passline.com/eventos/gualeguaychu-festival">Comprar Online</a>
+                            </div>
                         </div>
                     </div>
                 </div>
