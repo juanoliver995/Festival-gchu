@@ -7,6 +7,7 @@ import { Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import BakgoundLine from './BakgoundLine';
+import Eme from '../assets/eme.png'
 const LineUp = () => {
     return (
         <div id='line' className='line'>
@@ -45,7 +46,7 @@ const LineUp = () => {
                         <h1>BANDA</h1>
                         <h1>INVITADA</h1>
                         <div className='container-img-lineup'>
-                            <img src={Lgante} />
+                            <img src={Eme} />
                         </div>
                     </div>
                 </SwiperSlide>
