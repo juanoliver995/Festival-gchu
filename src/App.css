@@ -699,6 +699,10 @@ body {
         width: 30px;
         height: 30px;
     }
+
+    .line {
+        height: 80vh;
+    }
 }
 
 @media(max-width: 380px) {
