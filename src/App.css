@@ -564,6 +564,48 @@ body {
     padding: 18px;
 }
 
+/* background line */
+.line {
+    height: 100vh;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(60deg, #ffb900 30%, #FF1C3E 50%, #20ccdb 70%);
+    bottom: 0;
+    left: -50%;
+    opacity: .5;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+}
+
+.bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.bg3 {
+    animation-duration: 5s;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(25%);
+    }
+}
+
+
 @media(max-width: 1000px) {
     .container-hero h1 {
         font-size: 60px;
@@ -683,5 +725,9 @@ body {
 
     .lineup h1 {
         font-size: 40px;
+    }
+
+    .info-plano {
+        padding: 0;
     }
 }
