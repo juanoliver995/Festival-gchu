@@ -1,5 +1,5 @@
-import delta from '../assets/DELTA GROUP LOGO.png'
-import gchu from '../assets/LOGO GUALEGUAYCHU.png'
+import delta from '../assets/logos/DELTA GROUP LOGO.png'
+import gchu from '../assets/logos/LOGO GUALEGUAYCHU.png'
 
 const Footer = () => {
     return (

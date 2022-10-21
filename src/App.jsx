@@ -7,7 +7,7 @@ import Entradas from './components/Entradas'
 import PuntoVenta from './components/PuntoVenta'
 import Informacion from './components/Informacion'
 import Footer from './components/Footer'
-
+import Slider from './components/Slider'
 function App() {
 
 
@@ -16,6 +16,7 @@ function App() {
       <Nav />
       <Hero />
       <LineUp />
+      <Slider />
       <Plano />
       <Entradas />
       <PuntoVenta />

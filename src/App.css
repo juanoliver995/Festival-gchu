@@ -16,6 +16,7 @@
     --color-violet: #19001f;
     --font-title: 'Bebas Neue', cursive;
     --font-body: 'Poppins', sans-serif;
+    --font-line: 'Bowlby One SC', cursive;
 }
 
 body {
@@ -159,7 +160,10 @@ body {
 .lineup h1 {
     font-size: 40px;
     text-align: center;
+    font-family: var(--font-line);
+    letter-spacing: 5px;
 }
+
 
 
 .container-img-lineup img {
@@ -171,7 +175,6 @@ body {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 50px;
 }
 
 .container-plano h1 {
@@ -239,6 +242,7 @@ body {
     color: var(--dark-color);
     cursor: pointer;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .button-plano a:hover {
@@ -371,6 +375,7 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid var(--color-yellow);
+    max-width: 400px;
 }
 
 .ubi {
@@ -386,7 +391,6 @@ body {
 .punto-venta img {
     width: 40px;
     height: 40px;
-    margin-top: 20px;
 }
 
 .punto-venta img:hover {
@@ -395,10 +399,31 @@ body {
 
 .punto-venta h3 {
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     color: var(--color-yellow);
 }
 
+.punto-venta h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: var(--font-body);
+    margin-bottom: 5px;
+}
+
+.link-venta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--ligth-color);
+}
+
+.link-venta:hover {
+    color: var(--color-yellow);
+}
 
 .container-online h3 {
     font-size: 30px;
@@ -545,7 +570,7 @@ body {
 
 .bg {
     animation: slide 3s ease-in-out infinite alternate;
-    background-image: linear-gradient(60deg, #ffb900 50%, #f5e347 50%);
+    background-image: linear-gradient(60deg, #031242 50%, #0159db 50%);
     bottom: 0;
     left: -50%;
     opacity: .5;
@@ -565,6 +590,68 @@ body {
     animation-duration: 5s;
 }
 
+/* Slider */
+.slider-bg {
+    padding: 10px 0;
+    margin: 20px auto;
+}
+
+.container-slider {
+    width: 100%;
+}
+
+.slider {
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slider-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: scroll 55s linear infinite;
+    -webkit-animation: scroll 55s linear infinite;
+    width: calc(200px * 14);
+    gap: 10px;
+}
+
+.slider-2 {
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-2 .slider-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    animation: scroll 50s linear infinite;
+    -webkit-animation: scroll 50s linear infinite;
+    width: calc(200px * 14);
+    gap: 10px;
+}
+
+.slide {
+    width: 200px;
+}
+
+
+.slide img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+        -webkit-animation: transalteX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-200px * 7));
+        -webkit-animation: translateX(calc(-200px * 7));
+    }
+
+}
 
 @keyframes slide {
     0% {
@@ -670,6 +757,12 @@ body {
     .item-info-plano img {
         width: 30px;
         height: 30px;
+    }
+
+    .container-img-lineup {
+        width: 95%;
+        margin: 0 auto;
+        height: 100%;
     }
 
 }

@@ -1,13 +1,16 @@
 import React from 'react'
-import Lgante from '../assets/lgante-removebg-preview.png'
-import Nahu from '../assets/nahu.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/autoplay';
+import Lgante from '../assets/lgante-removebg-preview.png'
+import Nahu from '../assets/nahu.png'
 import BakgoundLine from './BakgoundLine';
 import Eme from '../assets/eme.png'
+import Ricky from '../assets/ricky.png'
+import Roman from '../assets/roman.png'
+
 const LineUp = () => {
     return (
         <div id='line' className='line'>
@@ -19,7 +22,7 @@ const LineUp = () => {
                 centeredSlidesBounds={true}
                 centeredSlides={true}
                 autoplay={{
-                    delay: 3000,
+                    delay: 5000,
                     disableOnInteraction: false
                 }}
             >
@@ -29,6 +32,24 @@ const LineUp = () => {
                         <h1>PRINCIPAL</h1>
                         <div className='container-img-lineup'>
                             <img src={Lgante} />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='lineup'>
+                        <h1>DJ</h1>
+                        <h1>INVITADO</h1>
+                        <div className='container-img-lineup'>
+                            <img src={Ricky} />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='lineup'>
+                        <h1>DJ</h1>
+                        <h1>INVITADO</h1>
+                        <div className='container-img-lineup'>
+                            <img src={Roman} />
                         </div>
                     </div>
                 </SwiperSlide>
