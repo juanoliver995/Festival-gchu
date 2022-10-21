@@ -782,6 +782,31 @@ body {
         background-image: url(../src/assets/screenshot-2.png);
     }
 
+    .slider .slider-track {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: scroll 55s linear infinite;
+        -webkit-animation: scroll 55s linear infinite;
+        width: calc(150px * 14);
+        gap: 10px;
+    }
+
+    .slider-2 .slider-track {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row-reverse;
+        animation: scroll 50s linear infinite;
+        -webkit-animation: scroll 50s linear infinite;
+        width: calc(150px * 14);
+        gap: 15px;
+    }
+
+    .slide {
+        width: 150px;
+    }
+
 }
 
 @media(max-width: 380px) {
