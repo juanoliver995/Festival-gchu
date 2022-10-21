@@ -175,6 +175,7 @@ body {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    margin-top: 30px;
 }
 
 .container-plano h1 {
@@ -593,7 +594,7 @@ body {
 /* Slider */
 .slider-bg {
     padding: 10px 0;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .container-slider {
@@ -648,40 +649,9 @@ body {
     background-attachment: fixed;
     background-position: center;
     height: 100vh;
+    box-shadow: inset 0px 0px 10px 5px var(--dark-soft-color);
 }
 
-.container-amstel {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    width: 100%;
-    place-items: center;
-}
-
-.amstel-logo {
-    width: 500px;
-}
-
-.amstel-logo img {
-    width: 100%;
-}
-
-.amstel-info h2 {
-    font-family: var(--font-title);
-    font-size: 50px;
-    color: var(--dark-color);
-}
-
-.amstel-info h3 {
-    font-size: 40px;
-    font-family: var(--font-body);
-    margin: 20px 0;
-    color: var(--dark-color);
-}
-
-.amstel-info p {
-    font-size: 25px;
-    color: var(--dark-color);
-}
 
 @keyframes scroll {
     0% {
@@ -806,6 +776,10 @@ body {
         width: 95%;
         margin: 0 auto;
         height: 100%;
+    }
+
+    .bg-amstel {
+        background-image: url(../src/assets/screenshot-2.png);
     }
 
 }

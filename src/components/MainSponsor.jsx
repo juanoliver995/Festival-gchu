@@ -1,4 +1,4 @@
-import Amstel from '../assets/logos/amstel.webp'
+
 
 const MainSponsor = () => {
     return (

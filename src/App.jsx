@@ -17,8 +17,8 @@ function App() {
       <Nav />
       <Hero />
       <LineUp />
-      <MainSponsor />
       <Slider />
+      <MainSponsor />
       <Plano />
       <Entradas />
       <PuntoVenta />
