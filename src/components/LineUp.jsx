@@ -21,6 +21,7 @@ const LineUp = () => {
                 spaceBetween={500}
                 centeredSlidesBounds={true}
                 centeredSlides={true}
+                loop={true}
                 autoplay={{
                     delay: 5000,
                     disableOnInteraction: false
