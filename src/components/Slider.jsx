@@ -1,4 +1,4 @@
-import Amstel from '../assets/logos/amstel.png'
+import Amstel from '../assets/logos/amstel.webp'
 import Branca from '../assets/logos/branca.png'
 import Cernova from '../assets/logos/cernova.png'
 import Speed from '../assets/logos/speed.png'

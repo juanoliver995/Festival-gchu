@@ -640,6 +640,49 @@ body {
     width: 100%;
 }
 
+/* Amstel */
+.bg-amstel {
+    background-image: url(../src/assets/screenshot-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.container-amstel {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 100%;
+    place-items: center;
+}
+
+.amstel-logo {
+    width: 500px;
+}
+
+.amstel-logo img {
+    width: 100%;
+}
+
+.amstel-info h2 {
+    font-family: var(--font-title);
+    font-size: 50px;
+    color: var(--dark-color);
+}
+
+.amstel-info h3 {
+    font-size: 40px;
+    font-family: var(--font-body);
+    margin: 20px 0;
+    color: var(--dark-color);
+}
+
+.amstel-info p {
+    font-size: 25px;
+    color: var(--dark-color);
+}
+
 @keyframes scroll {
     0% {
         transform: translateX(0);
