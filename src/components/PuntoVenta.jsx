@@ -30,9 +30,21 @@ const PuntoVenta = () => {
                     </div>
                     <div className='punto-venta'>
                         <h3>Wonder Bike</h3>
-                        <h5>La Roque</h5>
-                        <a target="_blank" href='https://goo.gl/maps/bdiebYgfa4J6GDDP8' className='ubi'>Magnasco y Urquiza, La Roque</a>
+                        <h5>Larroque</h5>
+                        <a target="_blank" href='https://goo.gl/maps/xPjfAYzedgvvPspu6' className='ubi'>Magnasco y Urquiza, Larroque</a>
                         <a className='link-venta' target="_blank" href='https://www.instagram.com/wonderbikelque/?hl=es-la'><img src={Instagram} />@wonderbikelque</a>
+                    </div>
+                    <div className='punto-venta'>
+                        <h3>Kiosco Fer</h3>
+                        <h5>Gualeguay</h5>
+                        <a target="_blank" href='https://goo.gl/maps/m7EuhcuKXr2AoXiJ6' className='ubi'>San Antonio Norte 465, Gualeguay</a>
+                        <a className='link-venta' target="_blank" href='https://www.instagram.com/kiosco_fer/?hl=es-la'><img src={Instagram} />@kiosco_fer</a>
+                    </div>
+                    <div className='punto-venta'>
+                        <h3>Barba Blanca</h3>
+                        <h5>Gualeguay</h5>
+                        <a target="_blank" href='https://goo.gl/maps/UyGqGEVkJMAJ1Nyq7' className='ubi'>San Antonio 785, Gualeguay</a>
+                        <a className='link-venta' target="_blank" href='https://www.instagram.com/barbablanca_peluqueria/?hl=es-la'><img src={Instagram} />@barbablanca_peluqueria</a>
                     </div>
                 </div>
                 <div className='container-online'>
