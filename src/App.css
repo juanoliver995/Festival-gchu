@@ -740,6 +740,15 @@ body {
     }
 }
 
+@media(max-width: 720px) {
+    .bg-amstel {
+        background-image: url(../src/assets/screenshot-2.png);
+        height: 600px;
+        width: 100%;
+    }
+
+}
+
 @media(max-width: 500px) {
     .container-hero {
         display: flex;
@@ -780,6 +789,7 @@ body {
 
     .bg-amstel {
         background-image: url(../src/assets/screenshot-2.png);
+        height: 600px;
     }
 
     .slider .slider-track {
