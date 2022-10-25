@@ -27,9 +27,6 @@ const Slider = () => {
                         <img src={Heredero} />
                     </div>
                     <div className='slide'>
-                        <img src={Cernova} />
-                    </div>
-                    <div className='slide'>
                         <img src={Delta} />
                     </div>
                     <div className='slide'>
@@ -46,9 +43,6 @@ const Slider = () => {
                     </div>
                     <div className='slide'>
                         <img src={Heredero} />
-                    </div>
-                    <div className='slide'>
-                        <img src={Cernova} />
                     </div>
                     <div className='slide'>
                         <img src={Delta} />
@@ -73,9 +67,6 @@ const Slider = () => {
                         <img src={Heredero} />
                     </div>
                     <div className='slide'>
-                        <img src={Cernova} />
-                    </div>
-                    <div className='slide'>
                         <img src={Delta} />
                     </div>
                     <div className='slide'>
@@ -92,9 +83,6 @@ const Slider = () => {
                     </div>
                     <div className='slide'>
                         <img src={Heredero} />
-                    </div>
-                    <div className='slide'>
-                        <img src={Cernova} />
                     </div>
                     <div className='slide'>
                         <img src={Delta} />
