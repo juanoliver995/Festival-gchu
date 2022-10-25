@@ -9,6 +9,7 @@ import Informacion from './components/Informacion'
 import Footer from './components/Footer'
 import Slider from './components/Slider'
 import MainSponsor from './components/MainSponsor'
+import Vips from './components/Vips'
 function App() {
 
 
@@ -22,8 +23,8 @@ function App() {
       <Plano />
       <Entradas />
       <PuntoVenta />
+      <Vips />
       <Informacion />
-
       <Footer />
     </div>
   )
