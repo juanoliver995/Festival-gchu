@@ -1,6 +1,5 @@
 import Amstel from '../assets/logos/amstel.webp'
 import Branca from '../assets/logos/branca.png'
-import Cernova from '../assets/logos/cernova.png'
 import Speed from '../assets/logos/speed.png'
 import Heredero from '../assets/logos/heredero.png'
 import Delta from '../assets/logos/DELTA GROUP LOGO.png'

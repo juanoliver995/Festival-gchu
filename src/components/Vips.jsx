@@ -1,5 +1,5 @@
 import heredero from "../assets/logos/heredero.png"
-import sernova from "../assets/logos/cernova.png"
+import festival from "../assets/LOGO GCHU FEST.png"
 import branca from "../assets/logos/branca.png"
 
 const Vips = () => {
@@ -27,15 +27,15 @@ const Vips = () => {
                     </div>
                 </div>
                 <div className="palco-vip">
-                    <h3>Palco Sernova</h3>
+                    <h3>Palco Central</h3>
                     <p className="precio">Precio 4 personas: <span>$25.000</span></p>
                     <p className="persona-extra">Persona extra <span>$3.000</span></p>
-                    <img src={sernova} />
+                    <img src={festival} />
                     <div className="comprar">
                         <p>Comprar</p>
                         <div className="info-compra">
-                            <a href="https://walink.co/151d44">CECILIA</a>
-                            <a href="https://walink.co/7b32a8">IGNACIO</a>
+                            <a href="https://walink.co/b88b42">CECILIA</a>
+                            <a href="https://walink.co/210bc7">IGNACIO</a>
                         </div>
                     </div>
                 </div>
