@@ -4,7 +4,7 @@ import branca from "../assets/logos/branca.png"
 
 const Vips = () => {
     return (
-        <div className="main-palcos">
+        <div className="main-palcos" id="vips">
             <h1>Informacion sobre <span>palcos vips</span></h1>
             <div className="info-palcos">
                 <p>- Palcos Vips disponibles para 4 a 6 personas</p>

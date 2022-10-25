@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from "react-scroll"
 
 const Entradas = () => {
     return (
@@ -18,8 +18,7 @@ const Entradas = () => {
                     <div className='informacion-precios vips'>
                         <h3>Informacion Palcos VIPS</h3>
                         <div>
-                            <h4>Para adquirir tu palco vip comunicate con nosotros
-                                a traves de nuestras <span><a target="_blank" href='https://www.instagram.com/gualeguaychufestival/?hl=es-la'>redes sociales</a></span></h4>
+                            <h4>Para adquirir tu palco dirigete a <Link to="vips" spy={true} smooth={true} offset={50} duration={500}>esta seccion</Link></h4>
                         </div>
                     </div>
                 </div>

@@ -16,6 +16,9 @@ function Navbar({ open, handleClick }) {
             <Link to="puntos" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick}>
                 Puntos de Venta
             </Link>
+            <Link to="vips" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick}>
+                Palcos Vips
+            </Link>
             <Link to="informacion" spy={true} smooth={true} offset={50} duration={500} onClick={handleClick}>
                 Informacion
             </Link>
