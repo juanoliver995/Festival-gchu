@@ -12,7 +12,7 @@ const Entradas = () => {
                             <h4>Campo General <span>$1100</span></h4>
                         </div>
                         <div>
-                            <h4>Campo Preferencial <span>$1900</span></h4>
+                            <h4>Campo Preferencial <span>$2000</span></h4>
                         </div>
                     </div>
                     <div className='informacion-precios vips'>
