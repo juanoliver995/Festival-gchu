@@ -15,7 +15,7 @@ const Vips = () => {
             <div className="container-palcos-vips">
                 <div className="palco-vip">
                     <h3>Palco Heredero</h3>
-                    <p className="precio">Precio: <span>$18.000</span></p>
+                    <p className="precio">Precio 4 personas: <span>$18.000</span></p>
                     <p className="persona-extra">Persona extra <span>$3.000</span></p>
                     <img src={heredero} />
                     <div className="comprar">
@@ -28,7 +28,7 @@ const Vips = () => {
                 </div>
                 <div className="palco-vip">
                     <h3>Palco Sernova</h3>
-                    <p className="precio">Precio: <span>$25.000</span></p>
+                    <p className="precio">Precio 4 personas: <span>$25.000</span></p>
                     <p className="persona-extra">Persona extra <span>$3.000</span></p>
                     <img src={sernova} />
                     <div className="comprar">
@@ -41,7 +41,7 @@ const Vips = () => {
                 </div>
                 <div className="palco-vip">
                     <h3>Palco Branca</h3>
-                    <p className="precio">Precio: <span>$30.000</span></p>
+                    <p className="precio">Precio 4 personas: <span>$30.000</span></p>
                     <p className="persona-extra">Persona extra <span>$3.000</span></p>
                     <img src={branca} />
                     <div className="comprar">
