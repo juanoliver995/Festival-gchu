@@ -4,7 +4,7 @@ import Speed from '../assets/logos/speed.png'
 import Heredero from '../assets/logos/heredero.png'
 import Delta from '../assets/logos/DELTA GROUP LOGO.png'
 import Gchu from '../assets/logos/LOGO GUALEGUAYCHU.png'
-
+import Rojo from '../assets/logos/rojo.png'
 const Slider = () => {
     return (
         <div className='slider-bg'>
@@ -29,6 +29,9 @@ const Slider = () => {
                         <img src={Delta} />
                     </div>
                     <div className='slide'>
+                        <img src={Rojo} />
+                    </div>
+                    <div className='slide'>
                         <img src={Amstel} />
                     </div>
                     <div className='slide'>
@@ -45,6 +48,9 @@ const Slider = () => {
                     </div>
                     <div className='slide'>
                         <img src={Delta} />
+                    </div>
+                    <div className='slide'>
+                        <img src={Rojo} />
                     </div>
                 </div>
             </div>
@@ -69,6 +75,9 @@ const Slider = () => {
                         <img src={Delta} />
                     </div>
                     <div className='slide'>
+                        <img src={Rojo} />
+                    </div>
+                    <div className='slide'>
                         <img src={Amstel} />
                     </div>
                     <div className='slide'>
@@ -85,6 +94,9 @@ const Slider = () => {
                     </div>
                     <div className='slide'>
                         <img src={Delta} />
+                    </div>
+                    <div className='slide'>
+                        <img src={Rojo} />
                     </div>
                 </div>
             </div>
