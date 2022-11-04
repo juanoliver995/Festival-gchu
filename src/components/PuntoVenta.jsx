@@ -46,6 +46,12 @@ const PuntoVenta = () => {
                         <a target="_blank" href='https://goo.gl/maps/UyGqGEVkJMAJ1Nyq7' className='ubi'>San Antonio 785, Gualeguay</a>
                         <a className='link-venta' target="_blank" href='https://www.instagram.com/barbablanca_peluqueria/?hl=es-la'><img src={Instagram} />@barbablanca_peluqueria</a>
                     </div>
+                    <div className='punto-venta'>
+                        <h3>Parador Plaza</h3>
+                        <h5>Concepcion del Uruguay</h5>
+                        <a target="_blank" href='https://goo.gl/maps/24uJNKHNkAiXhfwt7' className='ubi'>Alberdi y 3 de febrero</a>
+                        <a className='link-venta' target="_blank" href='https://www.instagram.com/paradorplazacdelu/?hl=es-la'><img src={Instagram} />@paradorplazacdelu</a>
+                    </div>
                 </div>
                 <div className='container-online'>
                     <h3>Entradas Online a traves de <span><a target="_blank" href='https://www.passline.com/eventos/gualeguaychu-festival'>Passline haciendo click aqui</a></span></h3>
