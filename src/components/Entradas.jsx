@@ -9,10 +9,10 @@ const Entradas = () => {
                     <div className='informacion-precios generales'>
                         <h3>Valor de las Entradas</h3>
                         <div>
-                            <h4>Campo General <span>$1100</span></h4>
+                            <h4>Campo General <span>$1500</span></h4>
                         </div>
                         <div>
-                            <h4>Campo Preferencial <span>$2000</span></h4>
+                            <h4>Campo Preferencial <span>$2500</span></h4>
                         </div>
                     </div>
                     <div className='informacion-precios vips'>
