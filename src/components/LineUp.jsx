@@ -11,7 +11,11 @@ import Eme from '../assets/eme.png'
 import Ricky from '../assets/ricky.png'
 import Roman from '../assets/roman.png'
 import Lanzelota from '../assets/lanzelota.png'
+<<<<<<< HEAD
 import Atr from '../assets/atr.png'
+=======
+
+>>>>>>> db6f20d617b1d6d783657e7cb30d4df880644cf3
 
 const LineUp = () => {
     return (
@@ -49,15 +53,18 @@ const LineUp = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='lineup'>
+<<<<<<< HEAD
                         <h1>BANDA</h1>
                         <h1>INVITADA</h1>
                         <div className='container-img-lineup'>
                             <img src={Atr} />
                         </div>
-                    </div>
-                </SwiperSlide>
+                    </div >
+                </SwiperSlide >
                 <SwiperSlide>
                     <div className='lineup'>
+=======
+>>>>>>> db6f20d617b1d6d783657e7cb30d4df880644cf3
                         <h1>DJ</h1>
                         <h1>INVITADO</h1>
                         <div className='container-img-lineup'>
@@ -92,9 +99,9 @@ const LineUp = () => {
                         </div>
                     </div>
                 </SwiperSlide>
-            </Swiper>
-            <BakgoundLine />
-        </div>
+            </Swiper >
+    <BakgoundLine />
+        </div >
     )
 }
 
