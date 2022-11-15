@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import Slider from './components/Slider'
 import MainSponsor from './components/MainSponsor'
 import Vips from './components/Vips'
+import ReyMomo from './components/ReyMomo'
 function App() {
 
 
@@ -24,6 +25,7 @@ function App() {
       <Entradas />
       <PuntoVenta />
       <Vips />
+      <ReyMomo />
       <Informacion />
       <Footer />
     </div>

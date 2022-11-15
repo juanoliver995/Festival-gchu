@@ -10,6 +10,8 @@ import BakgoundLine from './BakgoundLine';
 import Eme from '../assets/eme.png'
 import Ricky from '../assets/ricky.png'
 import Roman from '../assets/roman.png'
+import Lanzelota from '../assets/lanzelota.png'
+import Atr from '../assets/atr.png'
 
 const LineUp = () => {
     return (
@@ -33,6 +35,24 @@ const LineUp = () => {
                         <h1>PRINCIPAL</h1>
                         <div className='container-img-lineup'>
                             <img src={Lgante} />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='lineup'>
+                        <h1>ARTISTA</h1>
+                        <h1>INVITADO</h1>
+                        <div className='container-img-lineup'>
+                            <img src={Lanzelota} />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='lineup'>
+                        <h1>BANDA</h1>
+                        <h1>INVITADA</h1>
+                        <div className='container-img-lineup'>
+                            <img src={Atr} />
                         </div>
                     </div>
                 </SwiperSlide>

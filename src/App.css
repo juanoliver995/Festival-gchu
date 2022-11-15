@@ -801,6 +801,32 @@ a {
     box-shadow: inset 0px 0px 10px 5px var(--dark-soft-color);
 }
 
+.rey-momo {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rey-momo img {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.rey-momo h1 {
+    color: var(--color-yellow);
+    font-family: var(--font-title);
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.rey-momo p {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
 @keyframes scroll {
     0% {
